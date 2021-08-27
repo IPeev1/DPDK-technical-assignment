@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-		"pkg": "pkg --targets linux --config package.json index.js"
+    "pkg": "pkg --targets linux --config package.json index.js"
   },
   "author": "Ivan Peev <i.ivanov.peev@hotmail.com>",
   "license": "ISC",
@@ -22,8 +22,8 @@
     "jsxBracketSameLine": false,
     "arrowParens": "avoid"
   },
-	"pkg": {
-		"scripts": "index.js",
-		"outputPath": "dist"
-	}
+  "pkg": {
+    "scripts": "index.js",
+    "outputPath": "dist"
+  }
 }
