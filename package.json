@@ -1,19 +1,19 @@
 {
   "name": "technical-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Technical assignment that shows TV Guide information",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+		"pkg": "pkg --targets linux --config package.json index.js"
   },
-  "author": "",
+  "author": "Ivan Peev <i.ivanov.peev@hotmail.com>",
   "license": "ISC",
   "dependencies": {
     "graphql": "^15.5.1",
     "graphql-request": "^3.5.0",
     "graphql-tag": "^2.12.5"
   },
-	"type": "module",
   "prettier": {
     "singleQuote": true,
     "trailingComma": "none",
@@ -21,5 +21,9 @@
     "bracketSpacing": true,
     "jsxBracketSameLine": false,
     "arrowParens": "avoid"
-  }
+  },
+	"pkg": {
+		"scripts": "index.js",
+		"outputPath": "dist"
+	}
 }
