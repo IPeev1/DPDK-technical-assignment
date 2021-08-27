@@ -1,0 +1,25 @@
+{
+  "name": "technical-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.5.0",
+    "graphql-tag": "^2.12.5"
+  },
+	"type": "module",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "printWidth": 80,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
+  }
+}
